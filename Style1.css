@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;margin: 0;
+    
+}  
+.Navbar ul li a{
+    text-decoration: none;
+    color:white;
+    
+}
+li a:hover{
+    font-weight: bolder;
+}
+
+.title{
+    display: flex;
+    justify-content:flex-start;
+    margin: 2vw;
+}
+ul{
+   display:flex;
+   justify-content:center;
+   align-items: center;
+}
+
+li{
+    display: inline-block;
+    padding-left: 2vw;
+    margin: 1vw;
+}
+
+nav{
+    font-family: 'Merienda','Times New Roman', Times, serif;
+    width: 100vw;
+    height: 15vh;
+    background-color:#503629;
+    color:white;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header{
+    position: sticky;
+    top:0px;
+}
+
+.bgimage{
+    width:80vw;
+    height: 75vh;
+    margin: 1vw auto ;
+    background-color: rgb(104, 20, 20);
+    background-image: url("img/chocopidea_frontIngae.jpg");
+   
+}
+
+#intropara{
+   
+    width: 60vw;
+    margin:  15vh auto 2vh;
+   
+}
+.intropara h3 , .bestseller{
+    text-align: center;
+    margin-top: 2vh;
+    font-family: 'Merienda','Times New Roman', Times, serif;
+}
+.welcome{
+    padding: 2vw;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 1.9;
+    /* font-family: 'Roboto Slab',Raleway, serif; */
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Merienda','Times New Roman', Times, serif;
+}
+.item{
+    width: 20vw;
+    height: 40vh;
+    object-fit: cover;
+
+}
+.contentModule{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.box-item a{
+  text-decoration: none;
+  color:#503629;
+  width: 20vw;
+  padding: 1vw;
+  display: flex;
+  justify-content:center;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  font-family: 'Merienda','Times New Roman', Times, serif;
+}
+.box-item a:hover{
+    font-weight: 900;
+}
+
+.box-item{
+    margin: 3vw;
+}
+.paraTitle{
+    text-align: center;
+    margin: 5vh;
+    font-family: 'Merienda','Times New Roman', Times, serif;
+    font-size: 28px;
+    line-height: 1.5;
+    letter-spacing: 0.035em;
+    font-weight: 500;
+    font-style: italic;
+    box-sizing: border-box;
+}
+
+
+.Chocovideo {
+    width: 30vw;
+    height: 80vh;
+    margin: 5vw;
+    background-image: url(img/pexels-anna-tarazevich-6036018.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    
+}
+.historyChoco{
+    width: 50vw;
+    margin: 5vw;
+    line-height: 1.8;
+    letter-spacing: 0.035em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Merienda','Times New Roman', Times, serif;
+}
+ 
+.Feadback{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Merienda','Times New Roman', Times, serif;
+}
+form h2{
+    padding: 0.5vw;
+}
+.email{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:1vw;
+}
+.email p{
+    margin: 1vh;
+}
+input[type="text"] , input[type="email"]{
+    margin: 2vh;
+    height: 2vw;
+    width:12vw;
+    padding: 1vh;
+   
+}
+.button{
+    margin: 1vh;
+    padding: 1vw;
+    background-color: rgb(165, 60, 60);
+    color: white;
+    border: 1px ;
+    border-radius: 15px;
+}
+.function{
+    display:flex;
+    justify-content: center;
+}
+.copyright{
+    width:100vw;
+    height: 15vh;
+    background-color: #503629;
+    font-size: 22px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.upButton{
+    position: fixed;
+    right: 2vw;
+    bottom: 2vw;
+}
