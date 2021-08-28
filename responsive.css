@@ -1,5 +1,47 @@
-@media screen and (max-width: 768px){
-    .s{
-        width: 100%;
+ @media screen and (max-width: 768px){ 
+    body .bgimage{
+        width: 80vw;
+        height: 45vh;
+        background-size: contain;
+        
     }
+   
+    main #intropara{
+        margin:  3vh auto 2vh;
+    }
+    .s .item{
+        width: 75vw;
+        height: 50vh;
+        
+    
+    }
+    .Chocovideo{
+        background-repeat: repeat-y;
+    }
+    .contentModule{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        flex-direction: column;
+    }
+    
+    .box-item a{
+        text-align: center;
+    }
+    
+    .container .Chocovideo{
+        height: 120vh;
+        background-size: cover;
+        
+    }
+ }
+
+ @media screen and (min-width: 769px) and (max-width: 1200px){
+	.image .item {
+        width: 28vw;
+        height: 50vh;
+        object-fit: cover;
+    }
+   
 }
